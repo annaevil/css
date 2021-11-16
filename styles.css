@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dongle:wght@300&family=Fira+Sans&display=swap');
+
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Acme', sans-serif;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.container2 {
+    background-color: rgb(25, 36, 56);
+    border-radius: 30px;
+    padding-bottom: 10px;
+}
+.info {
+    background: linear-gradient(to left, #c31a5b, #7129bd);
+    border-radius: 30px;
+    width: 100%;
+}
+
+h3 {
+    color: blueviolet;
+}
+
+h1, h3 {
+   text-align: center;
+}
+
+ul {
+    list-style: none;
+
+}
+
+label:hover {
+    opacity: 0.9;
+
+}
+
+label:active {
+    color: rgb(34, 51, 204);
+}
+
+label {
+    cursor: pointer;
+}
+
+.chek__input {
+    cursor: pointer;
+}
+
+img {
+    position: absolute;
+    width: 200px;
+    margin-left: 16.5%;
+    margin-top: 0%;
+    z-index: 9999;
+    top: 38.5em;
+         
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+    
+}
